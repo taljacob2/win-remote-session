@@ -46,6 +46,12 @@ Then, follow the instructions here:
 https://knowledge.digicert.com/solution/SO29005.html
 ![image](https://user-images.githubusercontent.com/70590583/161558038-127ada39-2d8a-4648-9bbf-b81c9c1ee645.png)
 
+More About Certificates:
+
+https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in
+https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/working-with-certificates
+https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-obtain-a-certificate-wcf
+
 Second Hop With WinRM:
 
 https://4sysops.com/archives/using-credssp-for-second-hop-powershell-remoting/
