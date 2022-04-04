@@ -1,3 +1,6 @@
+' View more here:
+' https://docs.microsoft.com/en-us/windows/win32/winrm/scripting-in-windows-remote-management
+
 
 ' Create WSMan Object to manage remote connections to other computers.
 Set Wsman = CreateObject("Wsman.Automation")
@@ -16,4 +19,4 @@ Response = Session.Get("http://schemas.microsoft.com/wbem/wsman/" _
 xmlFile.LoadXml(Response)
 
 ' Save the .xml file to a location in the computer.
-xmlFile.Save( "C:\Code\win-remote-session\RawOutput.xml")
+xmlFile.Save("C:\Code\win-remote-session\RawOutput.xml")
