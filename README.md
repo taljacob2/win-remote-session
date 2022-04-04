@@ -34,6 +34,10 @@ https://docs.microsoft.com/en-us/windows/win32/winrm/wsman-createsession
 https://docs.microsoft.com/en-us/windows/win32/winrm/session
 https://github.com/MicrosoftDocs/win32/blob/docs/desktop-src/WinRM/session.md
 
+Establish HTTPS Connection To Remote Server:
+
+https://www.youtube.com/watch?v=9D3v9iythwM
+
 Second Hop With WinRM:
 
 https://4sysops.com/archives/using-credssp-for-second-hop-powershell-remoting/
