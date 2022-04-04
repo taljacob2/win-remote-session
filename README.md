@@ -34,9 +34,17 @@ https://docs.microsoft.com/en-us/windows/win32/winrm/wsman-createsession
 https://docs.microsoft.com/en-us/windows/win32/winrm/session
 https://github.com/MicrosoftDocs/win32/blob/docs/desktop-src/WinRM/session.md
 
-Establish HTTPS Connection To Remote Server:
+#### Establish HTTPS Connection To Remote Server:
 
 https://www.youtube.com/watch?v=9D3v9iythwM
+
+Run:
+<kbd>Win</kbd> + <kbd>R</kbd> to open *run.exe*
+and search for:
+`certlm.msc`
+Then, follow the instructions here:
+https://knowledge.digicert.com/solution/SO29005.html
+![image](https://user-images.githubusercontent.com/70590583/161558038-127ada39-2d8a-4648-9bbf-b81c9c1ee645.png)
 
 Second Hop With WinRM:
 
