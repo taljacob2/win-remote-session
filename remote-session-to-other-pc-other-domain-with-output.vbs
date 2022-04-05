@@ -5,8 +5,8 @@
 Set Wsman = CreateObject("Wsman.Automation")
 Set ConnectionOptions = Wsman.CreateConnectionOptions
 ConnectionOptions.Username = "MyUserName"
-ConnectionOptions.Password = "MyPassword!"
-Set NewSession = Wsman.CreateSession("localhost", _
+ConnectionOptions.Password = "MyPassword"
+Set NewSession = Wsman.CreateSession("127.0.51.1", _
   (WSMan.SessionFlagUseNegotiate Or _
   WSMan.SessionFlagCredUsernamePassword), ConnectionOptions)
 
