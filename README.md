@@ -71,3 +71,7 @@ https://4sysops.com/archives/using-credssp-for-second-hop-powershell-remoting/
 Start a session - Full guide: (including: port, domain, ssh, and more...):
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/enter-pssession?view=powershell-7.2
+
+- More about credentials:
+  https://docs.microsoft.com/en-us/dotnet/api/system.management.automation.pscredential?view=powershellsdk-7.0.0
+  https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential?view=powershell-7.2
