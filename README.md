@@ -13,6 +13,14 @@ Enable-PSRemoting -Force
 winrm quickconfig
 ```
 
+### Allow Unencrypted Connection
+
+> Thanks to this [StackOverflow Answer](https://stackoverflow.com/questions/1469791/powershell-v2-remoting-how-do-you-enable-unencrypted-traffic)
+
+```
+set-item -force WSMan:\localhost\Client\AllowUnencrypted $true
+```
+
 ### Test Connection
 
 In *powershell.exe*, run:
