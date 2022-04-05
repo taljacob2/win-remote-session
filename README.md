@@ -23,10 +23,14 @@ set-item -force WSMan:\localhost\Client\AllowUnencrypted $true
 
 ### Test Connection
 
-In *powershell.exe*, run:
-```
-Test-WSman REMOTE_IP_TO_CONNECT
-```
+There are several options to do so:
+
+- ```
+  Test-WSman REMOTE_IP_TO_CONNECT
+  ```
+- ```
+  New-PSSession -ComputerName TARGET_IP_ADDR -ConfigurationName Microsoft.PowerShell32 -Credential domain_name\user_name
+  ```
 
 ## Guides
 https://www.youtube.com/watch?v=HS95229Z0Yw
@@ -63,3 +67,7 @@ https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-obt
 Second Hop With WinRM:
 
 https://4sysops.com/archives/using-credssp-for-second-hop-powershell-remoting/
+
+Start a session - Full guide: (including: port, domain, ssh, and more...):
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/enter-pssession?view=powershell-7.2
